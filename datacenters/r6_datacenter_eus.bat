@@ -20,7 +20,7 @@ set textfile=GameSettings.ini
 set textfile2=GameSettings2.ini
 set tempfile=TempSettings.ini
 rem set textfile=file.txt
-set region=eastus
+set region=playfab/eastus
 
 copy %textfile% %tempfile%
 del %textfile%

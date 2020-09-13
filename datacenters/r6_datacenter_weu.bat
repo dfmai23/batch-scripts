@@ -20,7 +20,7 @@ set textfile=GameSettings.ini
 set textfile2=GameSettings2.ini
 set tempfile=TempSettings.ini
 rem set textfile=file.txt
-set region=westeurope
+set region=playfab/westeurope
 
 copy %textfile% %tempfile%
 del %textfile%
