@@ -1,0 +1,15 @@
+Sub AutoExec()
+    Application.OnTime When:=DateAdd("s", 1, Now), Name:="SetWebView"
+End Sub
+
+Sub AutoNew()
+    Call SetWebView
+End Sub
+
+Sub AutoOpen()
+    Call SetWebView
+End Sub
+
+Sub SetWebView()
+    ActiveWindow.View.Type = wdWebView
+End Sub
